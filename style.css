@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
 
 }
 
@@ -11,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
     
 
 }
@@ -23,32 +25,31 @@ body {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    padding: 10px 20px;
 
 }
 
 .Logo {
     display: flex;
     flex-direction: row;
+    
 }
 
 li {
     text-decoration: none;
     list-style: none;
+    display: inline;
    
 
 }
 
 .links {
     display: flex;
+    flex-direction: row;
  
 }
 
 
-.body {
-    display: flex;
-    flex: 1;
-
-}
 img {
     width: 100px;
     height: 100px;

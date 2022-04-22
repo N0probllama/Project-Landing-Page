@@ -31,7 +31,7 @@ body {
 
 .Logo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     display:inline-flex;
 }
 
@@ -56,6 +56,8 @@ li {
 img {
     width: 100px;
     height: 100px;
+    border-radius: 0.50rem;
+    border: 5px;
 
 }
 

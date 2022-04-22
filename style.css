@@ -44,6 +44,11 @@ body {
     flex: 1;
 }
 
+.waterlogo {
+    width: 400px;
+    height: 250px;
+    border: none;
+}
 
 
 li {
@@ -68,7 +73,8 @@ img {
     width: 100px;
     height: 100px;
     border-radius: 0.50rem;
-    border: 5px;
+    border: 5px solid #3882f6;
+    
 
 }
 
@@ -114,7 +120,7 @@ button {
     background: #3882f6;
     padding: 20px 20px;
     border: 10px;
-    border-radius: 4px;
+    border-radius: 8px;
     margin: 50px 50px;
     padding: 20px 200px;
     
@@ -139,7 +145,7 @@ button {
     align-content: center;
     flex-basis: 1;
     border: 10px, #3882f6;
-    border-radius: 4px;
+    border-radius: 8px;
     margin: 80px 20px;
     padding: 10px 20px;
     max-width: 200px;

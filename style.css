@@ -8,7 +8,6 @@ body {
 .header {
     color: #f9faf8;
     background: #1f2937;
-    padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -121,11 +120,13 @@ button {
     display: flex;
     align-content: center;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    gap: 20px;
     width: auto; 
     height: auto;
     flex-wrap: wrap;
     padding: 5px 5px;
+    margin-bottom: 50px;
 
 }
 
@@ -137,7 +138,6 @@ button {
     flex-direction: column;
     color:#e5e7eb ;
     background: #3882f6;
-    padding: 20px 20px;
     border: 10px;
     border-radius: 8px;
     margin: 50px 50px;
@@ -145,6 +145,18 @@ button {
     
 
 }
+
+.containerC {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #e5e7eb;
+    font-size: 36px, #1f2937;
+    padding: 20px 20px;
+}
+
 .quote {
     display: flex;
     align-content: center;
@@ -152,8 +164,11 @@ button {
     align-items: center;
     flex-direction: column;
     background: #e5e7eb;
-    font: 36px, #1f2937;
-    padding: 150px 20px;
+    font-size: 20px;
+    color: #1f2937;
+    padding: 20px 20px;
+    flex: 1;
+    
 }
 
  .info {
@@ -162,12 +177,9 @@ button {
     justify-content: center;
     align-items: center;
     align-content: center;
-    flex-basis: 1;
-    border: 10px, #3882f6;
+    flex-basis: 0;
     border-radius: 8px;
-    margin: 80px 20px;
-    padding: 10px 20px;
-    max-width: 200px;
+    
 
     
 }
@@ -192,8 +204,8 @@ button {
 }
 
 .text {
-    padding: 10px 10px;
-    
+    padding: 5px 5px;
+    text-align: center;
 }
 
 
@@ -205,5 +217,6 @@ button {
     align-items: center;
     justify-content: center;
     padding: 20px 20px;
+    flex: 1;
 
 }

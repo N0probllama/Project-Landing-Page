@@ -135,7 +135,7 @@ button {
     align-content: center;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     color:#e5e7eb ;
     background: #3882f6;
     border: 10px;
@@ -145,6 +145,14 @@ button {
     
 
 }
+
+.call {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
 
 .containerC {
     display: flex;

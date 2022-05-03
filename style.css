@@ -24,6 +24,7 @@ body {
     display: flex;
     flex-direction: row;
     align-content: flex-start;
+    justify-content: space-around;
    
     
 }
@@ -61,6 +62,7 @@ body {
     border: none;
     border-radius: 0.50rem;
     flex: 1;
+
    
 }
 .random {
